@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y apt-transport-https awscli ca-certifica
     curl https://dl.google.com/go/go${GO_VERSION}.linux-amd64.tar.gz | tar xzf - && \
     mv go /usr/local && \
     export PATH=/usr/local/go/bin:$PATH && \
-    mkdir -p $HOME/go/src/github.com/geoff-phan/indexer
+    mkdir -p $HOME/go/src/github.com/algorand/indexer
 
 RUN curl https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add - && \
     echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list && \
@@ -24,6 +24,6 @@ RUN tar -xzf /tmp/mockery_2.5.1_Linux_x86_64.tar.gz -C /tmp mockery && \
     mv /tmp/mockery /usr/local/bin && \
     rm /tmp/mockery_2.5.1_Linux_x86_64.tar.gz
 
-COPY ./ $HOME/go/src/github.com/geoff-phan/indexer/
-WORKDIR $HOME/go/src/github.com/geoff-phan/indexer/
+COPY ./ $HOME/go/src/github.com/algorand/indexer/
+WORKDIR $HOME/go/src/github.com/algorand/indexer/
 CMD ["/bin/bash"]
