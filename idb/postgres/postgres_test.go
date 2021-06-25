@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/algorand/indexer/idb"
+	"github.com/geoff-phan/indexer/idb"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

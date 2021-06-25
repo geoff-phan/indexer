@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/algorand/indexer/util"
+	"github.com/geoff-phan/indexer/util"
 )
 
 func initializeConfigFile(configFile string) (config GenerationConfig, err error) {

@@ -10,10 +10,10 @@ import (
 
 	sdk_types "github.com/algorand/go-algorand-sdk/types"
 
-	"github.com/algorand/indexer/accounting"
-	"github.com/algorand/indexer/api/generated/common"
-	"github.com/algorand/indexer/api/generated/v2"
-	"github.com/algorand/indexer/idb"
+	"github.com/geoff-phan/indexer/accounting"
+	"github.com/geoff-phan/indexer/api/generated/common"
+	"github.com/geoff-phan/indexer/api/generated/v2"
+	"github.com/geoff-phan/indexer/idb"
 )
 
 // ServerImplementation implements the handler interface used by the generated route definitions.

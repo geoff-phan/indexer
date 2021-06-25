@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/indexer/types"
+	"github.com/geoff-phan/indexer/types"
 )
 
 func TestEncodeSignedTxnWithAD(t *testing.T) {

@@ -6,9 +6,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/algorand/indexer/config"
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/importer"
+	"github.com/geoff-phan/indexer/config"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/importer"
 )
 
 var importCmd = &cobra.Command{

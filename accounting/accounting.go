@@ -8,8 +8,8 @@ import (
 	"github.com/algorand/go-algorand-sdk/encoding/msgpack"
 	sdk_types "github.com/algorand/go-algorand-sdk/types"
 
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/types"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/types"
 )
 
 // State is used to record accounting changes as a result of processing transactions.

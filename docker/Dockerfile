@@ -8,8 +8,8 @@ COPY docker/testdata.tar.bz2 /tmp/testdata.tar.bz2
 RUN tar -jxf /tmp/testdata.tar.bz2 -C /tmp
 
 # Add code to gopath and build
-RUN mkdir -p src/github.com/algorand/indexer
-WORKDIR src/github.com/algorand/indexer
+RUN mkdir -p src/github.com/geoff-phan/indexer
+WORKDIR src/github.com/geoff-phan/indexer
 COPY . .
 RUN make
 

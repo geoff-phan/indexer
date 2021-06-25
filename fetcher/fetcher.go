@@ -15,7 +15,7 @@ import (
 	"github.com/algorand/go-algorand-sdk/encoding/msgpack"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/algorand/indexer/types"
+	"github.com/geoff-phan/indexer/types"
 )
 
 // Fetcher is used to query algod for new blocks.

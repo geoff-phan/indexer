@@ -3,7 +3,7 @@ package api
 import (
 	"fmt"
 
-	"github.com/algorand/indexer/importer"
+	"github.com/geoff-phan/indexer/importer"
 )
 
 const (

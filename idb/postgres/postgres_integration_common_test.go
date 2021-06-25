@@ -10,11 +10,11 @@ import (
 	"github.com/orlangure/gnomock/preset/postgres"
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/indexer/accounting"
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/importer"
-	"github.com/algorand/indexer/types"
-	"github.com/algorand/indexer/util/test"
+	"github.com/geoff-phan/indexer/accounting"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/importer"
+	"github.com/geoff-phan/indexer/types"
+	"github.com/geoff-phan/indexer/util/test"
 )
 
 // setupPostgres starts a gnomock postgres DB then returns the connection string and a shutdown function.

@@ -3,7 +3,7 @@ package main
 import (
 	"math/rand"
 
-	"github.com/algorand/indexer/cmd/block-generator/generator"
+	"github.com/geoff-phan/indexer/cmd/block-generator/generator"
 	"github.com/spf13/cobra"
 )
 

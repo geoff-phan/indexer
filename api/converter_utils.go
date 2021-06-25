@@ -13,11 +13,11 @@ import (
 	"github.com/algorand/go-algorand-sdk/encoding/msgpack"
 	sdk_types "github.com/algorand/go-algorand-sdk/types"
 
-	"github.com/algorand/indexer/api/generated/v2"
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/importer"
-	"github.com/algorand/indexer/types"
-	"github.com/algorand/indexer/util"
+	"github.com/geoff-phan/indexer/api/generated/v2"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/importer"
+	"github.com/geoff-phan/indexer/types"
+	"github.com/geoff-phan/indexer/util"
 )
 
 //////////////////////////////////////////////////////////////////////

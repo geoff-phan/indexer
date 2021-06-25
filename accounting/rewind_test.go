@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	models "github.com/algorand/indexer/api/generated/v2"
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/idb/mocks"
+	models "github.com/geoff-phan/indexer/api/generated/v2"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/idb/mocks"
 )
 
 func TestBasic(t *testing.T) {

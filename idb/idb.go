@@ -14,9 +14,9 @@ import (
 
 	sdk_types "github.com/algorand/go-algorand-sdk/types"
 
-	models "github.com/algorand/indexer/api/generated/v2"
-	"github.com/algorand/indexer/types"
-	"github.com/algorand/indexer/util"
+	models "github.com/geoff-phan/indexer/api/generated/v2"
+	"github.com/geoff-phan/indexer/types"
+	"github.com/geoff-phan/indexer/util"
 )
 
 // TxnRow is metadata relating to one transaction in a transaction query.

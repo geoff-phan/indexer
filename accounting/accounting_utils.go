@@ -3,7 +3,7 @@ package accounting
 import (
 	sdk_types "github.com/algorand/go-algorand-sdk/types"
 
-	"github.com/algorand/indexer/types"
+	"github.com/geoff-phan/indexer/types"
 )
 
 // TODO: Move these to the SDK as helpers on the transaction type

@@ -6,10 +6,10 @@ import (
 
 	"github.com/algorand/go-algorand-sdk/encoding/msgpack"
 	sdk_types "github.com/algorand/go-algorand-sdk/types"
-	models "github.com/algorand/indexer/api/generated/v2"
+	models "github.com/geoff-phan/indexer/api/generated/v2"
 
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/types"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/types"
 )
 
 // ConsistencyError is returned when the database returns inconsistent (stale) results.

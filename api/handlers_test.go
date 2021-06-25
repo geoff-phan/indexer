@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/mock"
 
 	"github.com/algorand/go-algorand-sdk/encoding/msgpack"
-	"github.com/algorand/indexer/api/generated/v2"
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/idb/mocks"
+	"github.com/geoff-phan/indexer/api/generated/v2"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/idb/mocks"
 )
 
 func TestTransactionParamToTransactionFilter(t *testing.T) {

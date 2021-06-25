@@ -9,10 +9,10 @@ import (
 
 	sdk_types "github.com/algorand/go-algorand-sdk/types"
 
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/idb/postgres/internal/encoding"
-	"github.com/algorand/indexer/types"
-	"github.com/algorand/indexer/util/test"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/idb/postgres/internal/encoding"
+	"github.com/geoff-phan/indexer/types"
+	"github.com/geoff-phan/indexer/util/test"
 )
 
 func nextMigrationNum(t *testing.T, db *IndexerDb) int {

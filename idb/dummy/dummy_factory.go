@@ -3,7 +3,7 @@ package dummy
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/algorand/indexer/idb"
+	"github.com/geoff-phanindexer/idb"
 )
 
 type dummyFactory struct {

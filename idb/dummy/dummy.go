@@ -5,9 +5,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	models "github.com/algorand/indexer/api/generated/v2"
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/types"
+	models "github.com/geoff-phan/indexer/api/generated/v2"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/types"
 )
 
 type dummyIndexerDb struct {

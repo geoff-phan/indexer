@@ -9,9 +9,9 @@ import (
 
 	"github.com/algorand/go-algorand-sdk/encoding/msgpack"
 	sdk_types "github.com/algorand/go-algorand-sdk/types"
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/types"
-	"github.com/algorand/indexer/util"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/types"
+	"github.com/geoff-phan/indexer/util"
 )
 
 var quiet = false

@@ -6,8 +6,8 @@ import (
 	sdk_types "github.com/algorand/go-algorand-sdk/types"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/util/test"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/util/test"
 )
 
 func GetAccounting() *State {

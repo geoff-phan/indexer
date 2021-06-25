@@ -10,11 +10,11 @@ import (
 	"github.com/algorand/go-algorand-sdk/encoding/msgpack"
 	sdk_types "github.com/algorand/go-algorand-sdk/types"
 
-	"github.com/algorand/indexer/idb"
-	_ "github.com/algorand/indexer/idb/postgres"
-	"github.com/algorand/indexer/types"
-	"github.com/algorand/indexer/util"
-	testutil "github.com/algorand/indexer/util/test"
+	"github.com/geoff-phan/indexer/idb"
+	_ "github.com/geoff-phan/indexer/idb/postgres"
+	"github.com/geoff-phan/indexer/types"
+	"github.com/geoff-phan/indexer/util"
+	testutil "github.com/geoff-phan/indexer/util/test"
 )
 
 var (

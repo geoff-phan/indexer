@@ -11,12 +11,12 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/algorand/indexer/api"
-	"github.com/algorand/indexer/config"
-	"github.com/algorand/indexer/fetcher"
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/importer"
-	"github.com/algorand/indexer/types"
+	"github.com/geoff-phan/indexer/api"
+	"github.com/geoff-phan/indexer/config"
+	"github.com/geoff-phan/indexer/fetcher"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/importer"
+	"github.com/geoff-phan/indexer/types"
 )
 
 var (

@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/idb/mocks"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/idb/mocks"
 )
 
 var errSuccess = errors.New("unexpected success")

@@ -5,10 +5,10 @@ import (
 	"fmt"
 
 	"github.com/algorand/go-algorand-sdk/encoding/msgpack"
-	"github.com/algorand/indexer/util"
+	"github.com/geoff-phan/indexer/util"
 
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/types"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/types"
 )
 
 // Importer is used to import blocks into an idb.IndexerDb object.

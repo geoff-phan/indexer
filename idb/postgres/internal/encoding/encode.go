@@ -5,7 +5,7 @@ import (
 
 	"github.com/algorand/go-codec/codec"
 
-	"github.com/algorand/indexer/types"
+	"github.com/geoff-phan/indexer/types"
 )
 
 var jsonCodecHandle *codec.JsonHandle

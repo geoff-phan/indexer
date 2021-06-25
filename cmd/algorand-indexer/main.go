@@ -12,11 +12,11 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 
-	"github.com/algorand/indexer/config"
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/idb/dummy"
-	_ "github.com/algorand/indexer/idb/postgres"
-	"github.com/algorand/indexer/version"
+	"github.com/geoff-phan/indexer/config"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/idb/dummy"
+	_ "github.com/geoff-phan/indexer/idb/postgres"
+	"github.com/geoff-phan/indexer/version"
 )
 
 func maybeFail(err error, errfmt string, params ...interface{}) {

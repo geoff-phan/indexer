@@ -8,7 +8,7 @@ import (
 	sdk_types "github.com/algorand/go-algorand-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/indexer/types"
+	"github.com/geoff-phan/indexer/types"
 )
 
 func makePrivateGenerator(t *testing.T) *generator {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/algorand/indexer/idb"
+	"github.com/geoff-phan/indexer/idb"
 )
 
 // DBUnavailableError is the error returned when a migration is in progress or required.

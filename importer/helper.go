@@ -18,9 +18,9 @@ import (
 	"github.com/algorand/go-algorand-sdk/encoding/json"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/algorand/indexer/accounting"
-	"github.com/algorand/indexer/idb"
-	"github.com/algorand/indexer/types"
+	"github.com/geoff-phan/indexer/accounting"
+	"github.com/geoff-phan/indexer/idb"
+	"github.com/geoff-phan/indexer/types"
 )
 
 // NewImportHelper builds an ImportHelper
